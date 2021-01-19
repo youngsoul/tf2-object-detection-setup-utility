@@ -19,17 +19,17 @@ Run pascal-voc-2-tfrecord.py --images-dir
 
 Model Training
 
-cd <tf2 model repo root>/
+run model_train.py
 
 ## Step 6
 
 Model Export
 
 
-Run model_exporter.py
+Run python model_exporter.py
 
 ## step 7
 
 Inference
 
-run  predict.py
+run  python predict.py
